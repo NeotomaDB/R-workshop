@@ -3,6 +3,6 @@ format: html
 pagetitle: Home
 ---
 
-# Bienvenidos!
+# ¡Bienvenidos!
 
-Este pequeño tutorial pretende orientar al participante a utilizar el paquete de datos de neotoma2 y la base de datos de Neotoma
+Este pequeño tutorial pretende orientar a les participantes a utilizar el paquete de R `neotoma2 `y la base de datos de `Neotoma`

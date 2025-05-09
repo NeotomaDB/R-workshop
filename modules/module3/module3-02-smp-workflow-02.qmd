@@ -1,5 +1,5 @@
 ---
-title: "Flujo de Trabajo Simple HTML"
+title: "Referencias para el taller LAP"
 author: "Simon Goring, Socorro Dominguez Vidaña"
 date: today
 format:
