@@ -81,7 +81,6 @@ Para crear gráficas, podemos usar `strat.plot()` del paquete `rioja`, ordenar l
 #| context: interactive
 #| results: asis
 # Plot the stratigraphic plot, converting proportions to percentages:
-png("strat_plot.png", width = 1200, height = 800, res = 150)
 clust <- rioja::chclust(dist(sqrt(counts)),
                         method = "coniss")
 plot <- rioja::strat.plot(counts[,-1] * 100, yvar = counts$age,
@@ -95,7 +94,7 @@ plot <- rioja::strat.plot(counts[,-1] * 100, yvar = counts$age,
 rioja::addClustZone(plot, clust, 4, col = "red")
 ```
 
-[img](images/plotStrigraphraw-1.png)
+![img](images/plotStrigraphraw-1.png)
 
 
 ## Conclusion
