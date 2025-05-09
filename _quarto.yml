@@ -28,8 +28,8 @@ website:
     contents:
       - section: "**M0.**"
         contents:
-          - text: 'Bienvenides!'
-            href: modules/index.qmd
+          - text: 'Bienvenides a LAP!'
+            href: modules/module3/module3-02-smp-workflow-02.qmd
           - href: modules/module0/module0-00-module-learning-outcomes.qmd
           - href: modules/module0/module0-01-ayuda-en-neotoma.qmd
           - href: modules/module0/module0-02-instalacion.qmd

@@ -6,8 +6,8 @@
     "section": "",
     "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
     "crumbs": [
-      "**Taller LAP.**",
-      "Flujo de trabajo simple"
+      "**M0.**",
+      "Bienvenides a LAP!"
     ]
   },
   {
@@ -17,8 +17,8 @@
     "section": "",
     "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
     "crumbs": [
-      "**Taller LAP.**",
-      "Flujo de trabajo simple"
+      "**M0.**",
+      "Bienvenides a LAP!"
     ]
   },
   {
@@ -28,8 +28,8 @@
     "section": "Poster del evento",
     "text": "Poster del evento",
     "crumbs": [
-      "**Taller LAP.**",
-      "Flujo de trabajo simple"
+      "**M0.**",
+      "Bienvenides a LAP!"
     ]
   },
   {
@@ -39,8 +39,8 @@
     "section": "Versión HTML terminada",
     "text": "Versión HTML terminada",
     "crumbs": [
-      "**Taller LAP.**",
-      "Flujo de trabajo simple"
+      "**M0.**",
+      "Bienvenides a LAP!"
     ]
   },
   {
@@ -50,8 +50,8 @@
     "section": "Conéctate a BINDER",
     "text": "Conéctate a BINDER\n\n\n\nBinder",
     "crumbs": [
-      "**Taller LAP.**",
-      "Flujo de trabajo simple"
+      "**M0.**",
+      "Bienvenides a LAP!"
     ]
   },
   {
@@ -185,11 +185,7 @@
     "href": "modules/index.html",
     "title": "Bienvenidos!",
     "section": "",
-    "text": "Bienvenidos!\nEste pequeño tutorial pretende orientar al participante a utilizar el paquete de datos de neotoma2 y la base de datos de Neotoma",
-    "crumbs": [
-      "**M0.**",
-      "Bienvenides!"
-    ]
+    "text": "Bienvenidos!\nEste pequeño tutorial pretende orientar al participante a utilizar el paquete de datos de neotoma2 y la base de datos de Neotoma"
   },
   {
     "objectID": "modules/module0/module0-00-module-learning-outcomes.html",
