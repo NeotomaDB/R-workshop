@@ -8,7 +8,19 @@ format:
     css: "text.css"
 filters:
   - webr
+resources:
+  - images/
 ---
+## LINKS útiles
+
+[Agenda](https://docs.google.com/document/d/12g128wHhCxW6Dn5IpwZ5G2cT7gAdt7jf/edit#heading=h.vnk5sqtfbjsp)
+
+[Slides de Participantes](https://docs.google.com/presentation/d/1FpejJCsf5l10nkcnT0BhXMAXVIc2qrms/edit?slide=id.p1#slide=id.p1)
+
+[Presentacion](https://docs.google.com/presentation/d/17JfCtpgFema4i2SjPZyC3ACuWVmUYn6A/edit?slide=id.p1#slide=id.p1)
+
+[Ejercicios](https://docs.google.com/presentation/d/1ws2WVEDQzSTPTqqAYHTeA-VOlVPCFMsW/edit?slide=id.p15#slide=id.p15)
+
 
 ## Versión HTML terminada
 
@@ -19,3 +31,7 @@ filters:
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NeotomaDB/Current_Workshop/main)
+
+## Poster del evento
+
+<iframe src=../../images/poster.jpg" width="100%" height="600"></iframe>
