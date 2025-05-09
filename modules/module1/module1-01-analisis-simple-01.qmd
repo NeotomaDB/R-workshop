@@ -17,7 +17,7 @@ filters:
 webr: 
   autoload-packages: true
   preload: ["neotoma2", "rmarkdown"]
-  repos: ["https://https://github.com/NeotomaDB/R-workshop/webr_repo"]
+  repos: ["https://github.com/NeotomaDB/R-workshop/webr_repo"]
   install-quiet: true
 ---
 
@@ -60,7 +60,7 @@ PostgreSQL (y la API) utilizan el signo de porcentaje como comodín. De esta for
 #| setup: true
 #| results: 'hide'
 # Setting up the environment
-download.file("https://open.neotomadb.org/Current_Workshop/webr_repo/src/generateHTML.R", destfile = "plotLeaflet.R", mode = "wb")
+download.file("https://open.neotomadb.org/R-workshop/webr_repo/src/generateHTML.R", destfile = "plotLeaflet.R", mode = "wb")
 source("plotLeaflet.R")
 
 suppressMessages({suppressWarnings({

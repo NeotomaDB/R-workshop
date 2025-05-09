@@ -34,7 +34,7 @@ El siguiente comando puede tomar algo de tiempo. Por eso, hemos guardado el resu
 #| cache: true
 #| setup: true
 #| results: hide
-download.file("https://open.neotomadb.org/Current_Workshop/webr_repo/data/saDownload.RDS", destfile = "saDownload.RDS", mode = "wb")
+download.file("https://open.neotomadb.org/R-workshop/webr_repo/data/saDownload.RDS", destfile = "saDownload.RDS", mode = "wb")
 suppressMessages({suppressWarnings({library(neotoma2)})})
 ```
 
