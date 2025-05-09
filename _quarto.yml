@@ -84,7 +84,8 @@ format:
     execute:
       echo: true
 web-r:
-  repos: https://github.com/NeotomaDB/R-workshop/webr_repo
+  web-r:
+  repos: https://open.neotomadb.org/R-workshop/webr_repo
   autoload-packages: false
   preload: ["neotoma2"]
   install-quiet: true

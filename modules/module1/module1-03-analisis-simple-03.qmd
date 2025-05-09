@@ -16,7 +16,7 @@ filters:
 webr: 
   autoload-packages: true
   preload: ["neotoma2", "rmarkdown", "dplyr"]
-  repos: ["https://github.com/NeotomaDB/R-workshop/webr_repo"]
+  repos: ["https://open.neotomadb.org/R-workshop/webr_repo"]
   install-quiet: true
 ---
 ```{webr-r}
