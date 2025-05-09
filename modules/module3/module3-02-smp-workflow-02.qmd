@@ -1,0 +1,21 @@
+---
+title: "Flujo de Trabajo Simple HTML"
+author: "Simon Goring, Socorro Dominguez Vidaña"
+date: today
+format:
+  html:
+    toc: true
+    css: "text.css"
+filters:
+  - webr
+---
+
+## Versión HTML terminada
+
+<iframe src="simple_workflow.html" width="150%" height="600"></iframe>
+
+
+## Conéctate al BINDER
+
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NeotomaDB/Current_Workshop/main)

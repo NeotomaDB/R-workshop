@@ -50,7 +50,7 @@ website:
           - text: Presentación/Diapositivas
             href: modules/module3/module3-01-diap-01.qmd
           - text: Flujo de trabajo simple
-            href: modules/module3/simple_workflow.html
+            href: modules/module3/module3-02-smp-workflow-02.qmd
           
 # Since we are declaring options for two formats here (html and revealjs)
 # each qmd file needs to include a yaml block including which format to use for that file.
