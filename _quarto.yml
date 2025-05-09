@@ -43,8 +43,12 @@ website:
         contents:
           - href: modules/module2/module2-00-apendice-00.qmd
           - href: modules/module2/module2-01-apendice-01.qmd
-      - section: "**HTML.**"
+      - section: "**Taller LAP.**"
         contents:
+          - text: Agenda
+            href: modules/module3/module3-00-agenda-00.qmd
+          - text: Presentación/Diapositivas
+            href: modules/module3/module3-01-diap-01.qmd
           - text: Flujo de trabajo simple
             href: modules/module3/simple_workflow.html
           

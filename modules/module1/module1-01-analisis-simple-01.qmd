@@ -115,7 +115,7 @@ sa <- list(geoJSON = '{"type": "Polygon",
 
 sa$sf <- geojsonsf::geojson_sf(sa$geoJSON)
 
-sa_sites <- neotoma2::get_sites(loc = sa$sf, all_data = TRUE)
+sa_sites <- neotoma2::get_sites(loc = sa$sf)
 ```
 
 Puedes siempre hacer un gráfico de los `sites` obtenidos con `plot()`, pero los datos perderan el contexto geográfico. La función `plotLeaflet()` regresa un mapa de la librería `leaflet()` y permite mayor personalización o agregar datos espaciales adicionales (como nuestro cuadro delimitador, `sa$sf`, que funciona directamente con el paquete `leaflet`):
@@ -142,7 +142,7 @@ Si observamos al [diagrama UML](https://es.wikipedia.org/wiki/Lenguaje_unificado
 #| label: summary_sites
 #| exercise: true
 #| context: interactive
-neotoma2::summary(sa_sites)
+head(neotoma2::summary(sa_sites))
 ```
 
 Podemos ver que no hay cronologías asociadas con el objeto `sites`. Esto es porque, por el momento, no hemos extraído la información necesaria de los `dataset`. Todo lo que sabemos, tras la llamada `get_sites()` son los tipos de conjuntos de datos con los que contamos.
@@ -158,8 +158,14 @@ Con un objeto `sites` podemos llamar directamente a la función `get_datasets()`
 #| exercise: true
 #| context: interactive
 sa_datasets <- neotoma2::get_datasets(sa_sites, all_data = TRUE)
+length(sa_datasets)
+```
 
-datasets(sa_datasets)
+```{webr-r}
+#| label: display head sa_datasets
+#| exercise: true
+#| context: interactive
+head(datasets(sa_datasets))
 ```
 
 ### Filtrar Registros con `filter()` {.tabset}
@@ -172,7 +178,7 @@ Si decidimos únicamente obtener registros de un sólo tipo de datos, o si reque
 #| context: interactive
 sa_pollen <- sa_sites %>% 
   neotoma2::filter(datasettype == "pollen")
-neotoma2::summary(sa_pollen)
+head(neotoma2::summary(sa_pollen))
 ```
 
-Podemos ver qeu la tabla de datos se ve diferente y que hay un número menor de sitios.
+Podemos ver que la tabla de datos se ve diferente y que hay un número menor de sitios.

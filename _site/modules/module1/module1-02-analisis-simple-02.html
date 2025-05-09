@@ -371,7 +371,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"download.file(\"https://open.neotomadb.org/R-workshop/webr_repo/data/saDownload.RDS\", destfile = \"saDownload.RDS\", mode = \"wb\")\nsuppressMessages({suppressWarnings({library(neotoma2)})})","id":1,"options":{"autorun":"false","cache":"true","classes":"","comment":"","context":"interactive","dpi":72,"echo":"false","editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","eval":"true","fig-cap":"","fig-height":5,"fig-width":7,"include":"false","label":"taxa","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"hide","setup":"true","warning":"true"}},{"code":"## This line is commented out because we've already run it for you.\n##sa_dl <- sa_pollen %>% get_downloads(all_data = TRUE)\nlibrary(neotoma2)\nsa_dl <- readRDS('saDownload.RDS')\nsa_dl","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"taxa","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"allSamp <- samples(sa_dl)","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","exercise":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"allSamples","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"colnames(allSamp)","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","exercise":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"colNamesAllSamp","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"neotomatx <- neotoma2::taxa(sa_dl)","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","exercise":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"taxa2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qwebrCellDetails = [{"code":"download.file(\"https://open.neotomadb.org/R-workshop/webr_repo/data/saDownload.RDS\", destfile = \"saDownload.RDS\", mode = \"wb\")\nsuppressMessages({suppressWarnings({library(neotoma2)})})","id":1,"options":{"autorun":"false","cache":"true","classes":"","comment":"","context":"interactive","dpi":72,"echo":"false","editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","eval":"true","fig-cap":"","fig-height":5,"fig-width":7,"include":"false","label":"taxa","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"hide","setup":"true","warning":"true"}},{"code":"## This line is commented out because we've already run it for you.\n##sa_dl <- sa_pollen %>% get_downloads(all_data = TRUE)\nlibrary(neotoma2)\nsa_dl <- readRDS('saDownload.RDS')\nsa_dl","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"taxa","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"options(warn=-1)\nallSamp <- samples(sa_dl)","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","exercise":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"allSamples","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"colnames(allSamp)","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","exercise":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"colNamesAllSamp","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"options(warn=-1)\nneotomatx <- neotoma2::taxa(sa_dl)\nhead(neotomatx)","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","exercise":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"taxa2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 </script>
 <script type="module">
@@ -1759,12 +1759,24 @@ globalThis.qwebrExecuteCode = async function (
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text"><strong>HTML.</strong></span></a>
+ <span class="menu-text"><strong>Taller LAP.</strong></span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../modules/module3/module3-00-agenda-00.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Agenda</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../modules/module3/module3-01-diap-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación/Diapositivas</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../modules/module3/simple_workflow.html" class="sidebar-item-text sidebar-link">

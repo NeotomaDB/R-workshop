@@ -54,6 +54,7 @@ Una vez que hemos hecho la descarga, ahora tenemos información de cada sitio as
 #| label: allSamples
 #| exercise: true
 #| context: interactive
+options(warn=-1)
 allSamp <- samples(sa_dl)
 ```
 
@@ -76,7 +77,9 @@ Si quieres saber que taxones existen en los registros, puedes utilizar la funci�
 #| label: taxa2
 #| exercise: true
 #| context: interactive
+options(warn=-1)
 neotomatx <- neotoma2::taxa(sa_dl)
+head(neotomatx)
 ```
 
 #### Entendiendo las Taxonomías en Neotoma {-}

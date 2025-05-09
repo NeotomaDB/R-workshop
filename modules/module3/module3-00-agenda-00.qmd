@@ -1,0 +1,14 @@
+---
+title: "Agenda"
+author: "Simon Goring, Socorro Dominguez Vidaña"
+date: today
+format:
+  html:
+    toc: true
+    css: "text.css"
+filters:
+  - webr
+---
+## Agenda
+
+<iframe src="Agenda-neotoma.pdf" width="150%" height="600"></iframe>

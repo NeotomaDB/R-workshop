@@ -1,0 +1,15 @@
+---
+title: "Neotoma Presentación"
+author: "Simon Goring, Socorro Dominguez Vidaña"
+date: today
+format:
+  html:
+    toc: true
+    css: "text.css"
+filters:
+  - webr
+---
+
+## Diapositivas
+
+<iframe src="Trabajando-con-Neotoma-LAP.pdf" width="150%" height="600"></iframe>

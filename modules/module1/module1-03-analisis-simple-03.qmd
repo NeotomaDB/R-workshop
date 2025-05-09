@@ -37,10 +37,9 @@ suppressMessages({suppressWarnings({
 ```{webr-r}
 #| label: retrieve downloads
 #| message: false
+options(warn = -1)
 library(neotoma2)
 sa_dl <- readRDS('saDownload.RDS')
-allSamp <- samples(sa_dl)
-head(allSamp)
 ```
 
 ## Análisis Simples
@@ -84,7 +83,15 @@ Para crear gráficas, podemos usar `strat.plot()` del paquete `rioja`, ordenar l
 #| results: asis
 clust <- rioja::chclust(dist(sqrt(counts)),
                         method = "coniss")
-
+clust
+```
+```{webr-r}
+#| label: plotStrigraph2
+#| message: false
+#| warning: false
+#| exercise: true
+#| context: interactive
+#| results: asis
 # Plot the stratigraphic plot, converting proportions to percentages:
 plot <- rioja::strat.plot(counts[,-1] * 100, yvar = counts$age,
                   title = sa_dl[[1]]$sitename,
@@ -94,7 +101,15 @@ plot <- rioja::strat.plot(counts[,-1] * 100, yvar = counts$age,
                   clust = clust,
                   wa.order = "topleft",
                   scale.percent = TRUE)
+```
 
+```{webr-r}
+#| label: plotStrigraph3
+#| message: false
+#| warning: false
+#| exercise: true
+#| context: interactive
+#| results: asis
 rioja::addClustZone(plot, clust, 4, col = "red")
 ```
 
