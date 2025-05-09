@@ -1,0 +1,39 @@
+---
+title: "Referencias para el taller LAP"
+author: "Simon Goring, Socorro Dominguez Vidaña"
+date: today
+format:
+  html:
+    toc: true
+    css: "text.css"
+filters:
+  - webr
+resources:
+  - images/
+---
+## LINKS útiles
+
+<a href="https://docs.google.com/document/d/12g128wHhCxW6Dn5IpwZ5G2cT7gAdt7jf/edit#heading=h.vnk5sqtfbjsp" target="_blank">Agenda</a>
+
+<a href="https://docs.google.com/presentation/d/1FpejJCsf5l10nkcnT0BhXMAXVIc2qrms/edit?slide=id.p1#slide=id.p1"target="_blank">Participantes</a>
+
+<a href="https://docs.google.com/presentation/d/17JfCtpgFema4i2SjPZyC3ACuWVmUYn6A/edit?slide=id.p1#slide=id.p1"target="_blank">Presentacion</a>
+
+<a href="https://docs.google.com/presentation/d/1ws2WVEDQzSTPTqqAYHTeA-VOlVPCFMsW/edit?slide=id.p15#slide=id.p15"target="_blank">Ejercicios</a>
+
+
+## Poster del evento
+
+<img src="https://open.neotomadb.org/R-workshop/webr_repo/images/poster.jpg" style="width: 100%; max-height: 600px; object-fit: contain;" alt="Poster">
+
+
+
+## Versión HTML terminada
+
+<iframe src="simple_workflow.html" width="150%" height="600"></iframe>
+
+
+## Conéctate a BINDER
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NeotomaDB/Current_Workshop/main)
+

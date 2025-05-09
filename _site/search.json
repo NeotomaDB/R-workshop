@@ -6,8 +6,8 @@
     "section": "",
     "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
     "crumbs": [
-      "**M0.**",
-      "Bienvenides a LAP!"
+      "**Taller LAP.**",
+      "Flujo de trabajo simple"
     ]
   },
   {
@@ -17,8 +17,8 @@
     "section": "",
     "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
     "crumbs": [
-      "**M0.**",
-      "Bienvenides a LAP!"
+      "**Taller LAP.**",
+      "Flujo de trabajo simple"
     ]
   },
   {
@@ -28,8 +28,8 @@
     "section": "Poster del evento",
     "text": "Poster del evento",
     "crumbs": [
-      "**M0.**",
-      "Bienvenides a LAP!"
+      "**Taller LAP.**",
+      "Flujo de trabajo simple"
     ]
   },
   {
@@ -39,8 +39,8 @@
     "section": "Versión HTML terminada",
     "text": "Versión HTML terminada",
     "crumbs": [
-      "**M0.**",
-      "Bienvenides a LAP!"
+      "**Taller LAP.**",
+      "Flujo de trabajo simple"
     ]
   },
   {
@@ -50,8 +50,8 @@
     "section": "Conéctate a BINDER",
     "text": "Conéctate a BINDER\n\n\n\nBinder",
     "crumbs": [
-      "**M0.**",
-      "Bienvenides a LAP!"
+      "**Taller LAP.**",
+      "Flujo de trabajo simple"
     ]
   },
   {
@@ -178,6 +178,61 @@
     "crumbs": [
       "**M0.**",
       "1. Obtener ayuda con Neotoma"
+    ]
+  },
+  {
+    "objectID": "modules/module0/module0-00-intro.html",
+    "href": "modules/module0/module0-00-intro.html",
+    "title": "Referencias para el taller LAP",
+    "section": "",
+    "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
+    "crumbs": [
+      "**M0.**",
+      "Bienvenides a LAP!"
+    ]
+  },
+  {
+    "objectID": "modules/module0/module0-00-intro.html#links-útiles",
+    "href": "modules/module0/module0-00-intro.html#links-útiles",
+    "title": "Referencias para el taller LAP",
+    "section": "",
+    "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
+    "crumbs": [
+      "**M0.**",
+      "Bienvenides a LAP!"
+    ]
+  },
+  {
+    "objectID": "modules/module0/module0-00-intro.html#poster-del-evento",
+    "href": "modules/module0/module0-00-intro.html#poster-del-evento",
+    "title": "Referencias para el taller LAP",
+    "section": "Poster del evento",
+    "text": "Poster del evento",
+    "crumbs": [
+      "**M0.**",
+      "Bienvenides a LAP!"
+    ]
+  },
+  {
+    "objectID": "modules/module0/module0-00-intro.html#versión-html-terminada",
+    "href": "modules/module0/module0-00-intro.html#versión-html-terminada",
+    "title": "Referencias para el taller LAP",
+    "section": "Versión HTML terminada",
+    "text": "Versión HTML terminada",
+    "crumbs": [
+      "**M0.**",
+      "Bienvenides a LAP!"
+    ]
+  },
+  {
+    "objectID": "modules/module0/module0-00-intro.html#conéctate-a-binder",
+    "href": "modules/module0/module0-00-intro.html#conéctate-a-binder",
+    "title": "Referencias para el taller LAP",
+    "section": "Conéctate a BINDER",
+    "text": "Conéctate a BINDER\n\n\n\nBinder",
+    "crumbs": [
+      "**M0.**",
+      "Bienvenides a LAP!"
     ]
   },
   {
