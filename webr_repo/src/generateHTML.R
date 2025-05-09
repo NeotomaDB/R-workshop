@@ -65,3 +65,12 @@ plotLeaflet <- function(sites) {
                 width="50%%" height="300"></iframe>', ht))
   return(map)
 }
+
+plotStrat <- function(plot) {
+  html_file <- tempfile(fileext = ".html")
+  htmlwidgets::saveWidget(plot, html_file, selfcontained = FALSE)
+  ht <- generateHTML(html_file)
+  cat(sprintf('<iframe src="data:text/html;base64,%s"
+                width="50%%" height="300"></iframe>', ht))
+  return(plot)
+}
