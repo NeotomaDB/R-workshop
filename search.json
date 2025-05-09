@@ -2,7 +2,7 @@
   {
     "objectID": "modules/module3/module3-02-smp-workflow-02.html",
     "href": "modules/module3/module3-02-smp-workflow-02.html",
-    "title": "Flujo de Trabajo Simple HTML",
+    "title": "Referencias para el taller LAP",
     "section": "",
     "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
     "crumbs": [
@@ -13,7 +13,7 @@
   {
     "objectID": "modules/module3/module3-02-smp-workflow-02.html#links-útiles",
     "href": "modules/module3/module3-02-smp-workflow-02.html#links-útiles",
-    "title": "Flujo de Trabajo Simple HTML",
+    "title": "Referencias para el taller LAP",
     "section": "",
     "text": "Agenda\nParticipantes\nPresentacion\nEjercicios",
     "crumbs": [
@@ -24,7 +24,7 @@
   {
     "objectID": "modules/module3/module3-02-smp-workflow-02.html#poster-del-evento",
     "href": "modules/module3/module3-02-smp-workflow-02.html#poster-del-evento",
-    "title": "Flujo de Trabajo Simple HTML",
+    "title": "Referencias para el taller LAP",
     "section": "Poster del evento",
     "text": "Poster del evento",
     "crumbs": [
@@ -35,7 +35,7 @@
   {
     "objectID": "modules/module3/module3-02-smp-workflow-02.html#versión-html-terminada",
     "href": "modules/module3/module3-02-smp-workflow-02.html#versión-html-terminada",
-    "title": "Flujo de Trabajo Simple HTML",
+    "title": "Referencias para el taller LAP",
     "section": "Versión HTML terminada",
     "text": "Versión HTML terminada",
     "crumbs": [
@@ -46,7 +46,7 @@
   {
     "objectID": "modules/module3/module3-02-smp-workflow-02.html#conéctate-a-binder",
     "href": "modules/module3/module3-02-smp-workflow-02.html#conéctate-a-binder",
-    "title": "Flujo de Trabajo Simple HTML",
+    "title": "Referencias para el taller LAP",
     "section": "Conéctate a BINDER",
     "text": "Conéctate a BINDER\n\n\n\nBinder",
     "crumbs": [
@@ -183,9 +183,9 @@
   {
     "objectID": "modules/index.html",
     "href": "modules/index.html",
-    "title": "Bienvenidos!",
+    "title": "¡Bienvenidos!",
     "section": "",
-    "text": "Bienvenidos!\nEste pequeño tutorial pretende orientar al participante a utilizar el paquete de datos de neotoma2 y la base de datos de Neotoma"
+    "text": "¡Bienvenidos!\nEste pequeño tutorial pretende orientar a les participantes a utilizar el paquete de R neotoma2y la base de datos de Neotoma"
   },
   {
     "objectID": "modules/module0/module0-00-module-learning-outcomes.html",
