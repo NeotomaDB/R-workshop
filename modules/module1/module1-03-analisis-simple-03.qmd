@@ -38,7 +38,6 @@ suppressMessages({suppressWarnings({
 #| label: retrieve downloads
 #| message: false
 options(warn = -1)
-library(neotoma2)
 sa_dl <- readRDS('saDownload.RDS')
 ```
 
@@ -75,17 +74,6 @@ Aparentemente, esto es una llamada compleja de comandos. Sin embargo, la funció
 Para crear gráficas, podemos usar `strat.plot()` del paquete `rioja`, ordenar los taxones usando puntajes promedio ponderados (`wa.order`). También se ha agregado un gráfico CONISS al borde del gráfico, para mostrar cómo funciona el nuevo marco de datos amplio con funciones métricas de distancia.
 
 ```{webr-r}
-#| label: plotStrigraph
-#| message: false
-#| warning: false
-#| exercise: true
-#| context: interactive
-#| results: asis
-clust <- rioja::chclust(dist(sqrt(counts)),
-                        method = "coniss")
-clust
-```
-```{webr-r}
 #| label: plotStrigraph2
 #| message: false
 #| warning: false
@@ -93,6 +81,9 @@ clust
 #| context: interactive
 #| results: asis
 # Plot the stratigraphic plot, converting proportions to percentages:
+png("strat_plot.png", width = 1200, height = 800, res = 150)
+clust <- rioja::chclust(dist(sqrt(counts)),
+                        method = "coniss")
 plot <- rioja::strat.plot(counts[,-1] * 100, yvar = counts$age,
                   title = sa_dl[[1]]$sitename,
                   ylabel = "Calibrated Years BP",
@@ -101,17 +92,11 @@ plot <- rioja::strat.plot(counts[,-1] * 100, yvar = counts$age,
                   clust = clust,
                   wa.order = "topleft",
                   scale.percent = TRUE)
-```
-
-```{webr-r}
-#| label: plotStrigraph3
-#| message: false
-#| warning: false
-#| exercise: true
-#| context: interactive
-#| results: asis
 rioja::addClustZone(plot, clust, 4, col = "red")
 ```
+
+[img](images/plotStrigraphraw-1.png)
+
 
 ## Conclusion
 
