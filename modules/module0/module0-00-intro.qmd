@@ -30,7 +30,7 @@ resources:
 
 ## Versión HTML terminada
 
-<iframe src="simple_workflow.html" width="150%" height="600"></iframe>
+<iframe src="https://open.neotomadb.org/Current_Workshop/simple_workflow.html" width="150%" height="600"></iframe>
 
 
 ## Conéctate a BINDER
