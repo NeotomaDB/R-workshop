@@ -33,3 +33,4 @@ O bien, para una versión más amena, se puede utilizar la instancia de Github-p
 ### Rmd en Binder
 
 Sigue el link para abrir R en tu navegador.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NeotomaDB/Current_Workshop/main)
